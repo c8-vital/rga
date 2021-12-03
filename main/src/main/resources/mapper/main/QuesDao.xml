@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="nus.rga.main.dao.QuesDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="nus.rga.main.entity.QuesEntity" id="quesMap">
+        <result property="quesId" column="ques_id"/>
+        <result property="quesDesc" column="ques_desc"/>
+        <result property="parId" column="par_id"/>
+    </resultMap>
+
+
+</mapper>
